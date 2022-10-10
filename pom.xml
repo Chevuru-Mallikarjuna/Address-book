@@ -434,9 +434,9 @@
 						</reportSet>
 					</reportSets>
                         </configuration>
-                    </plugin>
-		  </plugins>
-	     </reporting>
+			</plugin>
+		    </plugins>
+		</reporting>
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-pmd-plugin</artifactId>
