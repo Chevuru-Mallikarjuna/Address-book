@@ -433,10 +433,10 @@
 							</reports>
 						</reportSet>
 					</reportSets>
-                        </configuration>
+			    </configuration>
 			</plugin>
 		    </plugins>
-		</reporting>
+		</reporting>               
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-pmd-plugin</artifactId>
