@@ -42,6 +42,7 @@ pipeline{
         stage('MetricCheck'){
             agent any
             steps{
+                git  'https://github.com/Chevuru-Mallikarjuna/Address-book.git'
                 sh 'mvn cobertura:cobertura -Dcobertura.report.format=xml'
             }
         }
